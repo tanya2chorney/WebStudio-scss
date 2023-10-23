@@ -1,4 +1,3 @@
-@charset "UTF-8";
 body {
   font-family: "Relaway", "Roboto";
   font-style: normal;
@@ -19,14 +18,13 @@ ul {
   padding: 0;
 }
 
-.conteiner {
-  width: 1170px;
+.container {
   margin: 0 auto;
   padding: 0 15px;
 }
 
 section {
-  padding-top: 94px;
+  padding-top: 60px;
 }
 
 h1,
@@ -41,15 +39,23 @@ p {
 }
 
 .header {
-  padding: 25px 0px;
-  max-width: 1600px;
+  max-width: 480px;
   margin: 0 auto;
 }
 
 .header-position {
+  width: 450px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+.menu-btn {
+  padding: 0;
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-color: white;
 }
 
 .logo {
@@ -70,11 +76,10 @@ p {
 .navigation {
   display: flex;
   align-items: center;
-  margin-left: 215px;
 }
 
 .list {
-  display: flex;
+  display: none;
   width: 280px;
   justify-content: space-between;
   margin-left: 93px;
@@ -122,7 +127,7 @@ p {
 }
 
 .list-contacts {
-  display: flex;
+  display: none;
   margin-right: 215px;
 }
 
@@ -147,12 +152,11 @@ p {
 }
 
 .hero {
-  padding: 25px 0px;
-  max-width: 1600px;
+  max-width: 480px;
   margin: 0 auto;
-  height: 600px;
-  padding: 200px 0;
-  background-image: url(../images/hero.png), url(../images/hero-blur.png);
+  height: 400px;
+  padding: 118px 0;
+  background-image: url(../images/hero-mobile.png), url(../images/hero-blur.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -161,17 +165,17 @@ p {
   text-transform: uppercase;
   margin: 0 auto;
   text-align: center;
-  font-size: 44px;
+  font-size: 26px;
   font-weight: 900;
-  line-height: 1.36;
-  letter-spacing: 2.64px;
+  line-height: 1.61;
+  letter-spacing: 1.56px;
 }
 
 .hero-btn {
   display: block;
-  width: 216px;
+  width: 200px;
   height: 50px;
-  margin: 30px auto 0;
+  margin: 35px auto 0;
   border: none;
   border-radius: 4px;
   background-color: #2196f3;
@@ -184,14 +188,12 @@ p {
   display: none;
 }
 
+.advantages-item {
+  margin-bottom: 30px;
+}
+
 .advantages-list {
-  width: 1170px;
-  height: 248px;
-  display: flex;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
-  justify-content: space-between;
-  align-items: flex-start;
+  width: 100%;
   margin: 0 auto;
 }
 
@@ -199,14 +201,16 @@ p {
   color: #212121;
   font-weight: 700;
   margin-top: 30px;
+  font-size: 14px;
+  text-align: center;
 }
 
 .background-icon {
-  width: 270px;
+  width: 100%;
   height: 120px;
   border-radius: 4px;
   background: #f5f4fa;
-  padding: 25px 100px;
+  padding: 25px 205px;
 }
 
 .advantages-desc {
@@ -215,15 +219,8 @@ p {
   line-height: 2;
 }
 
-.section-title {
-  text-align: center;
-  color: #212121;
-  font-weight: 700;
-  font-size: 36px;
-  margin-bottom: 50px;
-}
-
 .we-do {
+  display: none;
   height: 480px;
 }
 
@@ -254,8 +251,15 @@ p {
   text-transform: uppercase;
 }
 
+.section-title {
+  text-align: center;
+  color: #212121;
+  font-weight: 700;
+  font-size: 28px;
+  margin-bottom: 30px;
+}
+
 .team-list {
-  display: flex;
   width: 1170px;
   justify-content: space-between;
   margin: 0 auto;
@@ -263,8 +267,9 @@ p {
 }
 
 .team-item {
-  width: 270px;
-  height: 428px;
+  width: 450px;
+  height: 622px;
+  margin-bottom: 30px;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 2px 1px 0px rgba(0, 0, 0, 0.2), 0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 1px 3px 0px rgba(0, 0, 0, 0.12);
   background-color: #fff;
@@ -272,6 +277,12 @@ p {
 
 .section-team {
   background-color: #f5f4fa;
+  height: 2761px;
+}
+
+.team-img {
+  width: 450px;
+  height: 460px;
 }
 
 .card-box {
@@ -321,13 +332,16 @@ p {
   justify-content: space-between;
 }
 
-/* Постійні клієнти */
 .list-customers {
   display: flex;
-  width: 1170px;
-  justify-content: space-between;
   margin: 0 auto;
   padding-bottom: 94px;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+  row-gap: 30px;
 }
 
 .item-customers {
@@ -362,14 +376,18 @@ p {
   fill: #2196f3;
 }
 
-/* Footer */
 footer {
-  max-width: 1600px;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  height: 603px;
   margin: 0 auto;
-  height: 252px;
-  padding: 60px 215px;
   background: #2f303a;
-  position: relative;
+  padding-top: 60px;
+}
+
+.logo-footer {
+  margin: 0px 0 20px 148px;
 }
 
 .logo-studio-footer {
@@ -377,11 +395,13 @@ footer {
 }
 
 address {
-  margin-top: 20px;
+  text-align: center;
   width: 301px;
+  margin: 20px 0px 60px 74px;
 }
 
 .footer-contact {
+  text-align: center;
   color: rgba(255, 255, 255, 0.6);
   font-style: normal;
   line-height: 0.2;
@@ -392,9 +412,7 @@ address {
 }
 
 .join-in-text {
-  position: absolute;
-  top: 72px;
-  left: 516px;
+  text-align: center;
   font-family: "Roboto";
   font-weight: 700;
   text-transform: uppercase;
@@ -418,29 +436,23 @@ address {
   width: 206px;
   display: flex;
   justify-content: space-between;
-  position: absolute;
-  top: 108px;
-  left: 516px;
+  margin-left: 113px;
+  margin-bottom: 60px;
 }
 
 .mailling-list-container {
-  position: absolute;
   width: 570px;
   height: 86px;
-  top: 72px;
-  left: 815px;
 }
 
 .join-footer {
   display: flex;
-  position: absolute;
-  top: 36px;
-  left: 370px;
   width: 200px;
   height: 50px;
   border-radius: 4px;
   background-color: #2196f3;
   padding: 13px 28px;
+  margin: 40px 125px;
   align-items: center;
   justify-content: space-between;
   font-size: 16px;
@@ -449,8 +461,8 @@ address {
 }
 
 .input-mailling-list {
-  position: inherit;
-  width: 358px;
+  position: absolute;
+  width: 450px;
   height: 50px;
   border-radius: 4px;
   border: none;
@@ -459,6 +471,7 @@ address {
 }
 
 .input-mailling-text {
+  position: relative;
   margin: 35px 100px 15px 16px;
   color: rgba(255, 255, 255, 0.6);
   font-size: 16px;
@@ -466,12 +479,13 @@ address {
 
 .mailing-list-text {
   font-weight: 700;
+  width: 430px;
   line-height: normal;
   text-transform: uppercase;
   margin-bottom: 20px;
+  text-align: center;
 }
 
-/* Modal */
 .backdrop {
   position: fixed;
   bottom: 0;
