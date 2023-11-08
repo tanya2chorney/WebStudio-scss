@@ -1,0 +1,81 @@
+.header-position {
+    width: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .menu-btn {
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    border: none;
+    background-color: white;
+  }
+  
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  .list {
+    display: flex;
+    width: 280px;
+    justify-content: space-between;
+    margin-left: 93px;
+    margin: 0;
+  }
+  
+  .list-link {
+    color: #212121;
+    font-weight: 500;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .list-link:hover {
+    color: #2196f3;
+  }
+  .list-item {
+    position: relative;
+  }
+  .list-item::after {
+    position: absolute;
+    display: block;
+    content: " ";
+    top: 44px;
+    height: 4px;
+    border-radius: 2px;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .list-item:hover::after {
+    background-color: #2196f3;
+  }
+  
+  .list-item-studio::after {
+    width: 48px;
+  }
+  .list-item-portfolio::after {
+    width: 72px;
+  }
+  .list-item-contacts::after {
+    width: 64px;
+  }
+  .list-contacts {
+  display: flex;
+    margin-right: 215px;
+  }
+  
+  .menu-contact + .menu-contact {
+    margin-left: 50px;
+  }
+  .header-contact {
+    display: flex;
+    column-gap: 10px;
+    align-items: center;
+    color: #757575;
+    fill: #757575;
+    font-weight: 500;
+    transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+      fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .header-contact:hover {
+    color: #2196f3;
+    fill: #2196f3;
+  }

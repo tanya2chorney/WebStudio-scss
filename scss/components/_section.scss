@@ -1,0 +1,31 @@
+.header {
+    max-width: 480px;
+    margin: 0 auto;
+  }
+  .hero {
+    margin: 0 auto;
+    padding: 118px 0;
+    background-image: url(../images/hero-mobile.png), url(../images/hero-blur.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .advantages {
+    display: none;
+  }
+  .we-do {
+    display: none;
+    height: 480px;
+  }
+  .section-team {
+    background-color: #f5f4fa;
+    height: 2761px;
+  }
+  footer {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    height: 603px;
+    margin: 0 auto;
+    background: #2f303a;
+    padding-top: 60px;
+  }
