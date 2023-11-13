@@ -3,11 +3,20 @@
     margin: 0 auto;
   }
   .hero {
+    width: 480px;
     margin: 0 auto;
     padding: 118px 0;
     background-image: url(../images/hero-mobile.png), url(../images/hero-blur.png);
     background-size: contain;
     background-repeat: no-repeat;
+    @media (min-device-pixel-ratio: 2),
+          (min-resolution:192dpi),
+          (min-resolution:2dppx)
+          {
+.hero{
+  background-image: url(../images/hero-mobile@2x.png), url(../images/hero-blur.png);
+}
+          }
   }
   .advantages {
     display: none;

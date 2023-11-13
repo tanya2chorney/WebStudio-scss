@@ -47,9 +47,9 @@ p {
     width: 768px;
   }
 }
-@media screen and (min-width: 1600px) {
+@media screen and (min-width: 1200px) {
   .container {
-    width: 1600px;
+    width: 1200px;
   }
 }
 
@@ -378,11 +378,17 @@ address {
 }
 
 .hero {
+  width: 480px;
   margin: 0 auto;
   padding: 118px 0;
   background-image: url(../images/hero-mobile.png), url(../images/hero-blur.png);
   background-size: contain;
   background-repeat: no-repeat;
+}
+@media (min-device-pixel-ratio: 2), (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+  .hero .hero {
+    background-image: url(../images/hero-mobile@2x.png), url(../images/hero-blur.png);
+  }
 }
 
 .advantages {
