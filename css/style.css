@@ -1,10 +1,10 @@
 body {
-  font-family: "Relaway", "Roboto";
+  font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   color: #fff;
   font-size: 14px;
-  letter-spacing: 0.03em;
+  letter-spacing: 0.3em;
   background-color: #fff;
 }
 
@@ -18,7 +18,7 @@ ul {
   padding: 0;
 }
 
-section {
+.section {
   padding-top: 60px;
 }
 
@@ -444,13 +444,14 @@ footer {
 }
 
 .list-link {
-  color: #212121;
+  --title-color: #212121;
   font-weight: 500;
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-link:hover {
-  color: #2196f3;
+.list-link:hover,
+.list-link:focus {
+  color: var(--text-BG-color);
 }
 
 .list-item {
