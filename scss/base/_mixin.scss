@@ -177,10 +177,15 @@
   fill: #2196f3;
 }
 
-address {
+.footer-address {
+  color: #FFF;
+  margin-top: 20px;
   text-align: center;
-  width: 301px;
-  margin: 20px 0px 60px 74px;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 171.429% */
+  letter-spacing: 0.42px;
 }
 .footer-contact {
   text-align: center;
@@ -189,13 +194,17 @@ address {
   line-height: 0.2;
 }
 .footer-contact-item {
+ text-align: center;
   margin-top: 15px;
+letter-spacing: 0.42px;
 }
-.join-in-text {
+.footer-title {
   text-align: center;
-  font-family: "Roboto";
   font-weight: 700;
+  line-height: normal;
+  letter-spacing: 0.42px;
   text-transform: uppercase;
+  margin-top: 60px;
   margin-bottom: 20px;
 }
 .contact-team-item-footer {
@@ -213,48 +222,32 @@ address {
   width: 206px;
   display: flex;
   justify-content: space-between;
-  margin-left: 113px;
-  margin-bottom: 60px;
-}
-.mailling-list-container {
-  width: 570px;
-  height: 86px;
-}
+  margin: auto;
 
+}
+.mailling-box{
+height: 120px;
+}
 .join-footer {
   display: flex;
   width: 200px;
   height: 50px;
+margin: 20px auto;
   border-radius: 4px;
   background-color: #2196f3;
   padding: 13px 28px;
-  margin: 40px 125px;
-  align-items: center;
   justify-content: space-between;
   font-size: 16px;
   font-weight: 700;
   letter-spacing: 0.96px;
+
 }
 .input-mailling-list {
-  position: absolute;
   width: 450px;
   height: 50px;
+  padding-left: 16px;
   border-radius: 4px;
   border: none;
   outline: 1px solid rgba(255, 255, 255, 0.3);
   background-color: rgba(33, 150, 243, 0);
-}
-.input-mailling-text {
-  position: relative;
-  margin: 35px 100px 15px 16px;
-  color: rgba(255, 255, 255, 0.6);
-  font-size: 16px;
-}
-.mailing-list-text {
-  font-weight: 700;
-  width: 430px;
-  line-height: normal;
-  text-transform: uppercase;
-  margin-bottom: 20px;
-  text-align: center;
 }
