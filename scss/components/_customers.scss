@@ -1,0 +1,38 @@
+.list-customers {
+    display: flex;
+    margin: 0 auto;
+    padding-bottom: 60px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 30px;
+    row-gap: 30px;
+  }
+  .item-customers {
+    width: 170px;
+    height: 92px;
+    border-radius: 4px;
+    border: 1px solid #afb1b8;
+    padding: 16px 32px;
+    transition: border 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .item-customers:hover {
+    border: 1px solid #2196f3;
+  }
+  .icon-ya-co-sprite,
+.icon-company-tagline-sprite,
+.icon-company-sprite,
+.icon-foster-peters-sprite,
+.icon-brand-sprite,
+.icon-tag-line-sprite {
+  fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.item-customers:hover .icon-ya-co-sprite,
+.item-customers:hover .icon-company-tagline-sprite,
+.item-customers:hover .icon-company-sprite,
+.item-customers:hover .icon-foster-peters-sprite,
+.item-customers:hover .icon-brand-sprite,
+.item-customers:hover .icon-tag-line-sprite {
+  fill: #2196f3;
+}

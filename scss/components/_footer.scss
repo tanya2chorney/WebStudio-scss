@@ -1,0 +1,105 @@
+footer {
+    // display: flex;
+    // justify-content: center;
+    max-width: 100%;
+    height: 603px;
+    margin: 0 auto;
+    background: #2f303a;
+    padding-top: 60px;
+    @media screen and (min-width:768px) {
+
+        padding:60px 74px 0 61px;
+        height: 463px;
+    }
+  }
+  .container-footer{
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 165px;
+    row-gap: 60px;
+  }
+.footer-address {
+    color: #FFF;
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing:0.42px;
+  }
+  .footer-contact {
+    text-align: center;
+    color: #ffffff99;
+    font-style: normal;
+    line-height: 0.2;
+  }
+  .footer-contact-item {
+   text-align: center;
+    margin-top: 15px;
+  letter-spacing: 0.42px;
+  }
+  .footer-title {
+    text-align: center;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.42px;
+    text-transform: uppercase;
+    // margin-top: 60px;
+    margin-bottom: 20px;
+  }
+  .contact-team-item-footer {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    padding: 12px;
+    background-color: #ffffff1a;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .contact-team-item-footer:hover {
+    background-color: #2196f3;
+  }
+  .contact-team-list-footer {
+    width: 206px;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  
+  }
+  .mailling-box{
+  height: 120px;
+  }
+  .join-footer {
+    display: flex;
+    width: 200px;
+    height: 50px;
+  margin: 20px auto;
+    border-radius: 4px;
+    background-color: #2196f3;
+    padding: 13px 28px;
+    justify-content: space-between;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 0.96px;
+  
+  }
+  .input-mailling-list {
+    width: 450px;
+    height: 50px;
+    padding-left: 16px;
+    border-radius: 4px;
+    border: none;
+    outline: 1px solid rgba(255, 255, 255, 0.3);
+    background-color: rgba(33, 150, 243, 0);
+  }
+  .footer-container-logo{
+    width: 232px;
+    margin: 0 auto;
+  }
+  .footer-container-accession{
+    width: 206px;
+    margin: 0 auto;
+  }
+  .footer-container-mailling{
+    margin: 0 auto;
+  }

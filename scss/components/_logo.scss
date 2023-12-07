@@ -1,8 +1,9 @@
 .logo {
     font-family: "Raleway";
-    font-size: 26px;
+    font-size: 24px;
     font-weight: 700;
-    margin: 0 93px 0 0;
+    letter-spacing: 0.72px;
+
   }
   .logo-web {
     color: #2196f3;
@@ -14,7 +15,13 @@
     font-family: "Raleway";
     font-size: 26px;
     font-weight: 700;
-    margin: 0px 0 20px 148px;
+    letter-spacing: 0.72px;
+    margin: 40px;
+    // margin: 0px 0 20px 148px;
+    @media screen and (min-width:768px) {
+       font-size: 24px;
+       margin:40px;
+    }
   }
   .logo-studio-footer {
     color: #fff;
