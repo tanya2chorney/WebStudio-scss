@@ -1,0 +1,69 @@
+.mob-menu {
+    display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: #fff;
+  padding: 48px 15px 48px 40px;
+}
+.mob-menu-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background-color: transparent;
+  border: none;
+}
+.mob-menu-item + .mob-menu-item {
+  margin-top: 35px;
+}
+.mob-menu-link {
+  color: #212121;
+  font-size: 40px;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.8px;
+}
+.mob-menu-link:hover,
+.mob-menu-link:focus {
+  color: #2196f3;
+}
+.mob-menu-contacts {
+  margin-top: 300px;
+}
+.mob-menu-contacts-link {
+  color: #757575;
+  font-weight: 500;
+  line-height: 1.17;
+  letter-spacing: 0.68px;
+}
+.mob-menu-contacts-link:hover,
+.mob-menu-contacts-link:focus {
+  color: #2196f3;
+}
+.mob-menu-number {
+  font-size: 34px;
+}
+.mob-menu-email {
+  font-size: 24px;
+}
+.mob-menu-number + .mob-menu-email {
+  margin-top: 32px;
+}
+.mob-menu-contacts + .mob-socials-list {
+  margin-top: 64px;
+}
+.mob-socials-list {
+  display: flex;
+}
+.mob-socials-item + .mob-socials-item {
+  margin-left: 20px;
+}
+.mob-socials-item-link {
+  color: #2196f3;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.22;
+  letter-spacing: 0.36px;
+}

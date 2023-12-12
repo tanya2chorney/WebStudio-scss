@@ -7,6 +7,10 @@
     justify-content: center;
     column-gap: 30px;
     row-gap: 30px;
+    @media screen and (min-width:1600px) {
+      padding-bottom: 94px;
+      padding-top: 20px;
+    }
   }
   .item-customers {
     width: 170px;

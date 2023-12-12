@@ -3,10 +3,12 @@
     font-size: 24px;
     font-weight: 700;
     letter-spacing: 0.72px;
+  
 
   }
   .logo-web {
     color: #2196f3;
+
   }
   .logo-studio {
     color: #000;
@@ -21,6 +23,9 @@
     @media screen and (min-width:768px) {
        font-size: 24px;
        margin:40px;
+    }
+    @media screen and (min-width:1600px) {
+      margin: 0;
     }
   }
   .logo-studio-footer {

@@ -1,6 +1,9 @@
 .we-do {
-    display: none;
+  display: none;
     height: 480px;
+    @media screen and (min-width:1600px) {
+      display: block;
+    }
   }
   .we-do-list {
     display: flex;
@@ -14,9 +17,6 @@
   .we-do-blur {
     position: relative;
     top: 224px;
-  
-    /* position: relative;
-      bottom: 74px; */
   }
   .we-do-text {
     position: relative;

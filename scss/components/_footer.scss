@@ -11,12 +11,21 @@ footer {
         padding:60px 74px 0 61px;
         height: 463px;
     }
+    @media screen and (min-width:1600px) {
+      height: 252px;
+
+    }
   }
   .container-footer{
     display: flex;
     flex-wrap: wrap;
     column-gap: 165px;
     row-gap: 60px;
+    @media screen and (min-width:1600px) {
+    column-gap: 0;
+      row-gap: 0;
+      justify-content: space-between;
+    }
   }
 .footer-address {
     color: #FFF;
@@ -27,9 +36,11 @@ footer {
     font-weight: 400;
     line-height: 1.71;
     letter-spacing:0.42px;
+    @media screen and (min-width:1600px) {
+      text-align: start;
+    }
   }
   .footer-contact {
-    text-align: center;
     color: #ffffff99;
     font-style: normal;
     line-height: 0.2;
@@ -38,6 +49,9 @@ footer {
    text-align: center;
     margin-top: 15px;
   letter-spacing: 0.42px;
+  @media screen and (min-width:1600px) {
+    text-align: start;
+  }
   }
   .footer-title {
     text-align: center;
@@ -47,6 +61,10 @@ footer {
     text-transform: uppercase;
     // margin-top: 60px;
     margin-bottom: 20px;
+    @media screen and (min-width:1600px) {
+      text-align: start;
+
+    }
   }
   .contact-team-item-footer {
     width: 44px;
@@ -67,13 +85,19 @@ footer {
   
   }
   .mailling-box{
+    display: flex;
+    flex-direction: column;
   height: 120px;
+  row-gap: 20px;
+  @media screen and (min-width:1600px) {
+    column-gap: 12px;
+  }
+
   }
   .join-footer {
     display: flex;
     width: 200px;
     height: 50px;
-  margin: 20px auto;
     border-radius: 4px;
     background-color: #2196f3;
     padding: 13px 28px;
@@ -91,15 +115,29 @@ footer {
     border: none;
     outline: 1px solid rgba(255, 255, 255, 0.3);
     background-color: rgba(33, 150, 243, 0);
+    @media screen and (min-width:1600px) {
+      width: 358px;
+
+    }
   }
   .footer-container-logo{
     width: 232px;
     margin: 0 auto;
+    @media screen and (min-width:1600px) {
+      margin: 0;
+
+    }
   }
   .footer-container-accession{
     width: 206px;
     margin: 0 auto;
+    @media screen and (min-width:1600px) {
+      margin: 0;;
+    }
   }
   .footer-container-mailling{
     margin: 0 auto;
+    @media screen and (min-width:1600px) {
+      margin: 0;
+    }
   }
