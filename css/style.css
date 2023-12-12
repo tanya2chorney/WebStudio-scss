@@ -114,6 +114,12 @@ p {
   border-radius: 4px;
   padding: 40px;
 }
+@media screen and (min-width: 1600px) {
+  .modal {
+    width: 528px;
+    height: 581px;
+  }
+}
 
 .is-hidden {
   opacity: 0;
@@ -188,6 +194,11 @@ p {
   border: 1px solid rgba(33, 33, 33, 0.2);
   padding-left: 42px;
 }
+@media screen and (min-width: 1600px) {
+  .modal-form-fill input {
+    width: 448px;
+  }
+}
 
 .modal-link {
   color: #2196f3;
@@ -216,6 +227,11 @@ p {
   width: 370px;
   height: 120px;
   resize: none;
+}
+@media screen and (min-width: 1600px) {
+  .comment-area {
+    width: 448px;
+  }
 }
 
 .form-field-check {
